@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://qajf.github.io/blogtest"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "QAJF Blog Site"
 theme = "exampleTheme"
 sectionPagesMenu = "main"
 [menu]

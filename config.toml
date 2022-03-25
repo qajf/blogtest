@@ -14,6 +14,11 @@ theme = "exampleTheme"
     pre = "pen-tool"
     url = "/posts/"
     weight = 2
+ [[menu.main]]
+    name = "Categories"
+    pre = "categories"
+    url = "/categories/"
+    weight = 3
   [[menu.main]]
     name = "Tags"
     pre = "tag"

@@ -1,8 +1,8 @@
-name = "Theme Name"
+name = "aaa"
 license = "MIT"
 licenselink = "Link to theme's license"
 description = "Theme description"
-homepage = "Website of your theme"
+homepage = "https://qajf.github.io/blogtest/"
 tags = ["blog", "company"]
 features = ["some", "awesome", "features"]
 min_version = "0.59.1"
@@ -16,10 +16,10 @@ authors = [
 # If the theme has a single author
 [author]
     name = "Your name"
-    homepage = "Your website"
+    homepage = "https://qajf.github.io/blogtest/"
 
 # If porting an existing theme
 [original]
     author = "Name of original author"
-    homepage = "His/Her website"
+    homepage = "https://qajf.github.io/blogtest/"
     repo = "Link to source code of original theme"

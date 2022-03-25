@@ -4,17 +4,13 @@ date: 2021-02-12T16:00:39+09:00
 tags: ["tag2"]
 categories: ["cat2"]
 color : "red"
-thumbnail: "mdd-macbook.jpg"
+thumbnail: "file_015.png"
 resources:
 - name: featured_image
   src: "/assets/img/mdd-macbook.jpg"
   params:
     description: "A MacBook showing a website using the aether theme"
 ---
-
-25 Feb 2022 -
-
-更新日：2021年2月12日
 
 【概要 - Qムーヴメントとは、全世界で展開されている軍事作戦である】
 <!--more-->

@@ -18,7 +18,7 @@ Qムーヴメントとは、世界人類を戦争/飢餓/貧困/人権侵害な�
 
 <img src="/assets/img/file_015.png" />
 
-![file_015]("{{ .Permalink }}"/file_015.png)
+![file_015](/assets/img/file_015.png)
 
 【なぜ我々一般市民は、Qを知らないのか?】
 

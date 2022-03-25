@@ -1,0 +1,18 @@
+h1 {
+margin:0;
+}
+
+li {
+
+border:1px solid #000;
+list-style:none;
+height:320px;
+padding:10px;
+margin-bottom:10px;
+box-sizing:border-box;
+}
+
+.image_box {
+float:left;
+
+}

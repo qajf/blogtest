@@ -1,7 +1,7 @@
 baseURL = "https://qajf.github.io/blogtest"
 languageCode = "en-us"
 title = "QAJF Blog Site"
-theme = "exampleTheme"
+theme = "aaa"
 
 [menu]
   [[menu.main]]

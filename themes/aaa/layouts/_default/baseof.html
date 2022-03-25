@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
-    {{ partial "head.html" . }}
-    <body>
-        {{ partial "header.html" . }}
-        <div id="content" style="text-align:center">
-        {{ block "main" . }}{{ end }}
-        </div>
-        {{ partial "footer.html" . }}
-    </body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    Top of  baseof
+    <hr>
+    {{ block "main" .}}
+
+    {{end}}
+    <br>
+    {{ block "footer" . }}
+    This is the default baseof footer
+    {{end}}
+
+      <hr>
+    Bottom of baseof
+  </body>
 </html>

@@ -1,6 +1,9 @@
-{{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
-<br><br>
-{{ .Content }}
-{{ end }}
+<h1 style="color: {{ .Params.color}};">Single templete</h1>
+
+ {{ .Title}}
+ <br>
+ {{ .Date }}
+ {{ .URL }}
+ {{.Content}}
+ 
+ <br>

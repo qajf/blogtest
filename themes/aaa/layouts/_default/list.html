@@ -1,12 +1,48 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ range .Pages.ByPublishDate.Reverse }}
-<p>
-    <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    {{ partial "metadata.html" . }}
-    <a class="summary" href="{{ .RelPermalink }}">
-        <p>{{ .Summary }}</p>
-    </a>
-</p>
-{{ end }}
-{{ end }}
+
+ あ　This is the list template
+{{end}}
+{{ range .Site.Params.style_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
+
+<ul>
+ {{ range .Pages }}
+ <li>
+	     <div class="blog-contents">
+   {{ if .Params.thumbnail }}
+
+		     <div class="image_box">
+
+           <a href="{{ .Permalink }}">
+
+
+               <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" style="object-fit: cover;width: 300px;height: 300px;" />
+
+              
+               </div>
+           <div class="content_box">
+            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+<p>{{ .Summary }}</P>
+
+
+
+       </div>
+
+
+           {{else}}
+
+        <div class="content_box">
+         <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+
+<p>{{ .Summary }}</p>
+
+
+    </div>
+{{end}}
+ </div>
+    </li>
+
+
+  {{end}}
+</ul>

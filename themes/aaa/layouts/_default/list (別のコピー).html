@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+ あ　This is the list template
+{{end}}
+
+{{.Content}}
+<ul>
+ {{ range .Pages }}
+ <li>
+	     <div class="blog-contents">
+
+
+		     <div class="image_box">
+           <div class="p-2">
+           <a href="{{ .Permalink }}">
+             {{ if .Params.thumbnail }}
+             <div class="relative">
+               <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" style="object-fit: cover;width: 300px;height: 300px;" />
+               <div class="absolute top-4 right-4 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white text-sm px-2 py-0.5">
+
+
+
+			     </div>
+           <div class="content_box">
+            {{ .Title }}
+{{ .Content }}
+
+
+
+       </div>
+
+           {{else}}
+
+        <div class="content_box">
+         {{ .Title }}
+
+
+
+
+    </div>
+{{end}}
+
+    </li>
+
+
+  {{end}}

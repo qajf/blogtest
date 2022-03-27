@@ -1,7 +1,6 @@
 ---
 title: "Qムーヴメントとは"
 date: 2021-02-12T15:11:15+09:00
-draft: true
 archives : ["2021/02"]
 tags: ["tag2"]
 categories: ["cat2"]

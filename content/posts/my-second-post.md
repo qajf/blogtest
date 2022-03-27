@@ -1,6 +1,7 @@
 ---
 title: "My Second Post"
 date: 2022-03-25T09:37:26+09:00
+archives : ["2022/03"]
 
 ---
 

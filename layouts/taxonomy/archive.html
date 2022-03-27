@@ -1,0 +1,11 @@
+<h3>アーカイブ：{{ .Title }}</h3>
+</pre>
+{{ range .Data.Pages }}
+<li>
+  <h3>
+    {{ if eq 4 (len .Title) }}年別：{{ else if eq 7 (len .Title) }}月別：{{ else if eq 10 (len .Title) }}日別：{{ end }}{{ .Title }}
+</h3>
+    <div class="date">{{ .Date.Format "2006.01.02 (Mon)" }}</div>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+</li>
+{{ end }}

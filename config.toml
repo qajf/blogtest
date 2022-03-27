@@ -24,3 +24,9 @@ theme = "exampleTheme"
     pre = "tag"
     url = "/tags/"
     weight = 3
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	archive = "archives"
+

@@ -1,14 +1,26 @@
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+    order:1px solid #000;
+    overflow: hidden;
+}
+
+#content ul {
+
+    padding:0;
+}
+
 h1 {
 margin:0;
 }
 
-li {
+#content li {
 
 border:1px solid #000;
 list-style:none;
 height:320px;
 padding:10px;
-margin-bottom:10px;
+margin-bottom:50px;
 box-sizing:border-box;
 }
 

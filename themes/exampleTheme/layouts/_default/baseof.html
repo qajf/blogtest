@@ -3,9 +3,16 @@
     {{ partial "head.html" . }}
     <body>
         {{ partial "header.html" . }}
-        <div id="content">
+        <div class="container">
+        <div class="row">
+        <div id="content" class="col-sm-8">
         {{ block "main" . }}{{ end }}
         </div>
+        <div class="col-sm-4">
+          <h2>最近の投稿</h2>
+        </div>
+      </div>
+    </div>
         {{ partial "footer.html" . }}
     </body>
 </html>

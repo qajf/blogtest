@@ -12,11 +12,11 @@
           <ul class="side-menu-list">
             <h3>Archive</h3>
     {{ range $items := .Site.Taxonomies.archives.Alphabetical.Reverse }}
-        <li><a href="{{ $.Site.BaseURL }}archives/{{ .Name | urlize | lower }}">{{ .Name }} ({{ .Count }})</a></li>
+        <li><a href="{{ $.Site.BaseURL }}/archives/{{ .Name | urlize | lower }}">{{ .Name }} ({{ .Count }})</a></li>
     {{ end }}
     <h3>Categories</h3>
 {{ range $items := .Site.Taxonomies.categories.Alphabetical.Reverse }}
-<li><a href="{{ $.Site.BaseURL }}categories/{{ .Name | urlize | lower }}/">{{ .Name }} ({{ .Count }})</a></li>
+<li><a href="{{ $.Site.BaseURL }}/categories/{{ .Name | urlize | lower }}/">{{ .Name }} ({{ .Count }})</a></li>
 {{ end }}
 </ul>
 

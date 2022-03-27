@@ -28,3 +28,7 @@ box-sizing:border-box;
 float:left;
 
 }
+
+a.nav-link {
+    color: #fff;
+}

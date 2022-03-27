@@ -5,7 +5,7 @@ archives : ["2021/02"]
 tags: ["tag2"]
 categories: ["cat2"]
 color : "red"
-thumbnail: "file_015.png"
+thumbnail: "/assets/img/file_015.png"
 ---
 
 

@@ -1,4 +1,6 @@
-<div id="nav-border" class="container">
+<div id="nav-border" class="container" style="background-color:#000;height:50px;max-width:100%;color:#fff;">
+  <div style="display:flex">
+  <h2>{{ .Site.Title }}</h2>
     <nav id="nav" class="nav justify-content-center">
         {{ range .Site.Menus.main }}
         <a class="nav-link" href="{{ .URL }}">
@@ -11,4 +13,5 @@
         </a>
         {{ end }}
     </nav>
+    </div>
 </div>

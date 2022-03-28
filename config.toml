@@ -30,3 +30,5 @@ theme = "exampleTheme"
 	category = "categories"
 	archive = "archives"
 
+paginate = 1
+

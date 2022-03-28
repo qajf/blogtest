@@ -66,6 +66,10 @@ a.nav-link {
         #content li{
           height: auto;
         }
+
+        img {
+          width:100%;
+        }
       }
 
 }

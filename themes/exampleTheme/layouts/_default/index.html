@@ -4,6 +4,7 @@
 hcb
 <ul>
  {{ range .Site.RegularPages }}
+ 
 
  <li>
 	     <div class="blog-contents">
@@ -45,18 +46,12 @@ aaa
 
     </div>
 {{end}}
-<ul>
-  {{- range .Paginator.Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  {{- end }}
-</ul>
-
-<h3>切り替え</h3>
-{{ template "_internal/pagination.html" . }}
  </div>
     </li>
 
 
-  {{end}}
+
 </ul>
+
+{{ end }}
 {{ end }}

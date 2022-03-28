@@ -60,3 +60,12 @@ float:left;
 a.nav-link {
     color: #fff;
 }
+
+
+@media screen and (max-width: 500px) {
+        #content li{
+          height: auto;
+        }
+      }
+
+}

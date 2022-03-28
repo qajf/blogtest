@@ -1,8 +1,11 @@
 ---
-title: "My Second Post"
-date: 2022-03-25T09:37:26+09:00
-archives : ["2022/03"]
+title: "国/税務署は、ほんと許せません"
+date: 2021-10-23T09:37:26+09:00
+archives : ["2021/10"]
 
 ---
 
-testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+EriさんのTelegramチャンネル情報を共有させて頂きます。
+https://t.me/EriAndQmapJapan/428
+
+国/税務署は、ほんと許せませんよ。泥棒でしかない。わたしら庶民は、1万でも振り込んであげて、愛する人に美味しい者でも食べてもらおうと、こっちも苦しいなけなしのカネから絞り出して寄付しているのに、そこをヤツらは通帳まで調べて、税金かけて、横取りしてやろうというのですから! 泥棒じゃなかったらなんなんだ!!?

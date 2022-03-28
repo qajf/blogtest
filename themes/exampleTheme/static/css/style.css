@@ -50,7 +50,7 @@ li {
 
 border:1px solid #000;
 list-style:none;
-height:300px;
+height:320px;
 padding:10px;
 margin-bottom:50px;
 box-sizing:border-box;
@@ -75,3 +75,7 @@ a.nav-link {
           width:100%;
         }
       }
+
+}
+
+   

@@ -3,8 +3,8 @@
 
 hcb
 <ul>
- {{ range .Site.RegularPages }}
- 
+ {{ range (.Paginator 5).Pages }}
+
 
  <li>
 	     <div class="blog-contents">
@@ -52,6 +52,7 @@ aaa
 
 
 </ul>
+
 
 {{ end }}
 {{ end }}

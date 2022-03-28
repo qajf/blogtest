@@ -4,7 +4,7 @@
 <h1>{{ .Title }}</h1>
 
 <ul>
- {{ range .Pages }}
+ {{ range (.Paginator 5).Pages }}
 
  <li>
 	     <div class="blog-contents">
@@ -35,7 +35,7 @@
          <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 
 <p>{{ .Summary }}</p>
-aaa
+あ
 {{ if .Truncated }}
       <!-- This <div> includes a read more link, but only if the summary is truncated... -->
       <div>
@@ -53,4 +53,5 @@ aaa
   {{end}}
 </ul>
 {{ template "_internal/pagination.html" . }}
+
 {{ end }}
